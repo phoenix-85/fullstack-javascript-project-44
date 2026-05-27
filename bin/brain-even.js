@@ -10,7 +10,9 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".')
 for (let i = 0; i < MAX_ROUNDS; i++) {
   const num = Math.floor(Math.random() * 100)
   const answer = num % 2 === 0 ? 'yes' : 'no'
-  const input = readlineSync.question('Question: ')
+
+  console.log(`Question: ${num}`)
+  const input = readlineSync.question('Your answer: ')
 
   if (input === answer) {
     console.log('Correct!')
