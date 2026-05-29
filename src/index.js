@@ -17,7 +17,7 @@ export default (data) => {
       console.log('Correct!')
     }
     else {
-      console.log(`'${input}' is wrong answer ;(. Correct answer was '${data.answer[i]}'.`)
+      console.log(`'${input}' is wrong answer ;(. Correct answer was '${data.answers[i]}'.`)
       break
     }
   }
