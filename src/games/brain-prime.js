@@ -42,7 +42,7 @@ export default () => {
   }
 
   const data = {
-    question: 'Answer \'yes\' if given number is prime. Otherwise answer \'no\'.',
+    question: 'Answer "yes" if given number is prime. Otherwise answer "no".',
     problems: problems,
     answers: answers,
   }
